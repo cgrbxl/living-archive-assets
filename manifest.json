@@ -1,0 +1,49 @@
+{
+  "name": "The Living Archive UI Asset Pack",
+  "version": "1.0.0",
+  "sourceOfTruth": "SVG",
+  "palette": {
+    "navy": "#163B66",
+    "orange": "#E67E22",
+    "warm": "#F8FAFC",
+    "grey": "#E5E7EB",
+    "slate": "#D9E1EA"
+  },
+  "roles": [
+    "catalogue",
+    "console",
+    "council",
+    "capabilities",
+    "chart",
+    "kingdom_court",
+    "intelligence_officer",
+    "investment_officer",
+    "janitor",
+    "librarian",
+    "auditor",
+    "kingdom_gates"
+  ],
+  "appIconSizes": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "faviconSizes": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "rolePngSizes": [
+    24,
+    32,
+    64,
+    128
+  ],
+  "rules": [
+    "Use only assets in this pack for Kingdom UI identity and navigation.",
+    "Do not substitute, redraw, remix, or import external icon styles.",
+    "Preserve aspect ratio and approved colors."
+  ]
+}
