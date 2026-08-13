@@ -1,0 +1,47 @@
+{
+  "description": "Living Archive theme variations. All remain within the approved navy, orange, warm-white and grey language.",
+  "themes": {
+    "archive-light": {
+      "surface": "#F8FAFC",
+      "surface-muted": "#E5E7EB",
+      "structure": "#163B66",
+      "insight": "#E67E22",
+      "line": "#D9E1EA"
+    },
+    "archive-night": {
+      "surface": "#163B66",
+      "surface-muted": "#234B76",
+      "structure": "#F8FAFC",
+      "insight": "#E67E22",
+      "line": "#46698C"
+    },
+    "constitutional": {
+      "surface": "#F4F1EA",
+      "surface-muted": "#E5E7EB",
+      "structure": "#163B66",
+      "insight": "#E67E22",
+      "line": "#C8D0D9"
+    },
+    "council": {
+      "surface": "#F8FAFC",
+      "surface-muted": "#EEF1F4",
+      "structure": "#1C456F",
+      "insight": "#E67E22",
+      "line": "#D9E1EA"
+    },
+    "knowledge": {
+      "surface": "#F6F8FA",
+      "surface-muted": "#D9E1EA",
+      "structure": "#163B66",
+      "insight": "#D96F17",
+      "line": "#E5E7EB"
+    },
+    "economy": {
+      "surface": "#F8FAFC",
+      "surface-muted": "#EDF0F3",
+      "structure": "#12385F",
+      "insight": "#E98932",
+      "line": "#CDD6DF"
+    }
+  }
+}

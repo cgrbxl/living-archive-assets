@@ -78,4 +78,15 @@ Decorative marks should use empty alt text. Semantic role icons need a visible t
 - `seals/`: formal seal SVGs and PNGs.
 - `tokens/colors.css`: approved color variables.
 - `manifest.json`: machine-readable inventory and rules.
-+
+
+## Expanded Kingdom theme library (v1.1)
+
+The `theme-icons/` directory adds a broader semantic vocabulary while preserving the same open-arc frame, disciplined line weight, navy structure, and orange insight nodes. File names use lowercase kebab-case English terms. Correct canonical spellings are used: `bureaucracy`, `intelligence`, and `gate`.
+
+Included themes: archive, library, catalogue, council, kingdom, king, minister, court, app, registry, capabilities, agent, officer, intelligence, ai, gate, knowledge, bureaucracy, rules, constitution, law, economy, financial, investor, governance, provenance, memory, evidence, auditor, treasury, observatory, ministry, legislation, sovereignty.
+
+The `favicons/themes/` directory contains intentionally simplified browser-tab variants for twelve major application families. Choose the favicon matching the application's primary institutional identity; do not use a detailed role icon as a 16 px favicon.
+
+The `seals/themes/` directory contains formal and reversed seals for archive, council, kingdom, court, registry, constitution, law, treasury, knowledge, and governance contexts. Seals indicate institutional identity, not automatic approval or legal authority.
+
+The `tokens/themes.css` and `tokens/themes.json` files provide six controlled atmosphere variants. They vary emphasis only within the approved visual language. They are not separate brands and must not be mixed arbitrarily within one application.

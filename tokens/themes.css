@@ -1,0 +1,49 @@
+/* Living Archive theme variations */
+
+[data-archive-theme="archive-light"] {
+  --archive-surface: #F8FAFC;
+  --archive-surface-muted: #E5E7EB;
+  --archive-structure: #163B66;
+  --archive-insight: #E67E22;
+  --archive-line: #D9E1EA;
+}
+
+[data-archive-theme="archive-night"] {
+  --archive-surface: #163B66;
+  --archive-surface-muted: #234B76;
+  --archive-structure: #F8FAFC;
+  --archive-insight: #E67E22;
+  --archive-line: #46698C;
+}
+
+[data-archive-theme="constitutional"] {
+  --archive-surface: #F4F1EA;
+  --archive-surface-muted: #E5E7EB;
+  --archive-structure: #163B66;
+  --archive-insight: #E67E22;
+  --archive-line: #C8D0D9;
+}
+
+[data-archive-theme="council"] {
+  --archive-surface: #F8FAFC;
+  --archive-surface-muted: #EEF1F4;
+  --archive-structure: #1C456F;
+  --archive-insight: #E67E22;
+  --archive-line: #D9E1EA;
+}
+
+[data-archive-theme="knowledge"] {
+  --archive-surface: #F6F8FA;
+  --archive-surface-muted: #D9E1EA;
+  --archive-structure: #163B66;
+  --archive-insight: #D96F17;
+  --archive-line: #E5E7EB;
+}
+
+[data-archive-theme="economy"] {
+  --archive-surface: #F8FAFC;
+  --archive-surface-muted: #EDF0F3;
+  --archive-structure: #12385F;
+  --archive-insight: #E98932;
+  --archive-line: #CDD6DF;
+}
