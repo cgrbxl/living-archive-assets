@@ -1,6 +1,6 @@
 {
   "name": "The Living Archive UI Asset Pack",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "sourceOfTruth": "SVG",
   "palette": {
     "navy": "#163B66",
@@ -45,5 +45,85 @@
     "Use only assets in this pack for Kingdom UI identity and navigation.",
     "Do not substitute, redraw, remix, or import external icon styles.",
     "Preserve aspect ratio and approved colors."
+  ],
+  "themeIcons": [
+    "archive",
+    "library",
+    "catalogue",
+    "council",
+    "kingdom",
+    "king",
+    "minister",
+    "court",
+    "app",
+    "registry",
+    "capabilities",
+    "agent",
+    "officer",
+    "intelligence",
+    "ai",
+    "gate",
+    "knowledge",
+    "bureaucracy",
+    "rules",
+    "constitution",
+    "law",
+    "economy",
+    "financial",
+    "investor",
+    "governance",
+    "provenance",
+    "memory",
+    "evidence",
+    "auditor",
+    "treasury",
+    "observatory",
+    "ministry",
+    "legislation",
+    "sovereignty"
+  ],
+  "themeIconPngSizes": [
+    32,
+    64,
+    128
+  ],
+  "themedFavicons": [
+    "archive",
+    "library",
+    "council",
+    "kingdom",
+    "court",
+    "registry",
+    "intelligence",
+    "ai",
+    "gate",
+    "knowledge",
+    "constitution",
+    "economy"
+  ],
+  "themedFaviconSizes": [
+    16,
+    32,
+    64
+  ],
+  "themedSeals": [
+    "archive",
+    "council",
+    "kingdom",
+    "court",
+    "registry",
+    "constitution",
+    "law",
+    "treasury",
+    "knowledge",
+    "governance"
+  ],
+  "tokenThemes": [
+    "archive-light",
+    "archive-night",
+    "constitutional",
+    "council",
+    "knowledge",
+    "economy"
   ]
 }
