@@ -1,6 +1,6 @@
 {
   "name": "The Living Archive UI Asset Pack",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "sourceOfTruth": "SVG",
   "palette": {
     "navy": "#163B66",
@@ -125,5 +125,53 @@
     "council",
     "knowledge",
     "economy"
-  ]
+  ],
+  "apps": {
+    "economic-model-runner": {
+      "path": "apps/economic-model-runner",
+      "iconConcepts": [
+        "model",
+        "scenario",
+        "policy",
+        "shock",
+        "run",
+        "pause",
+        "reset",
+        "sectors",
+        "households",
+        "firms",
+        "government",
+        "banking",
+        "trade",
+        "inflation",
+        "employment",
+        "output",
+        "tax",
+        "spending",
+        "interest-rate",
+        "results"
+      ],
+      "infographics": [
+        "circular-flow",
+        "policy-transmission",
+        "scenario-comparison",
+        "sector-balances",
+        "scenario-laboratory-loop"
+      ],
+      "appIconSizes": [
+        128,
+        180,
+        192,
+        256,
+        512,
+        1024
+      ],
+      "faviconSizes": [
+        16,
+        32,
+        48,
+        64
+      ]
+    }
+  }
 }
