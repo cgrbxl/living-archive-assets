@@ -1,6 +1,6 @@
 # The Living Archive UI Asset Pack
 
-Version 1.0.0. Developer-ready assets for Kingdom interfaces. The SVG files are the source of truth; PNGs are convenience exports.
+Version 1.2.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
 
 ## Non-negotiable identity rule
 
@@ -67,17 +67,34 @@ The institutional seal is for formal records, approvals, audit summaries, consti
 
 Decorative marks should use empty alt text. Semantic role icons need a visible text label or accessible name. Do not communicate status through orange alone. Preserve at least 3:1 contrast for large graphical objects and test actual foreground/background pairings. Prefer gentle fades; do not spin, pulse, bounce, or glow these assets.
 
-## File structure
+## Repository map
 
-- `logos/`: master marks and masthead.
-- `app-icons/`: launcher PNGs.
-- `favicons/`: browser-tab assets.
-- `page-role-icons/svg/`: scalable light and reversed masters.
-- `page-role-icons/png/`: exact-size transparent PNG exports.
-- `motifs/`: decorative structural SVGs.
-- `seals/`: formal seal SVGs and PNGs.
-- `tokens/colors.css`: approved color variables.
-- `manifest.json`: machine-readable inventory and rules.
+| Folder | What it contains | Intended use |
+| --- | --- | --- |
+| `logos/` | Primary Living Archive mark, reversed mark and horizontal lock-up | Global mastheads, sign-in screens, documentation covers and institutional identity |
+| `app-icons/` | General-purpose square launcher icons | App launchers and generic Living Archive shortcuts when no app-specific icon exists |
+| `favicons/` | General favicon files, Safari mask and themed favicon families | Browser tabs, bookmarks and browser history; use exact 16/32/48/64 px files when requested |
+| `page-role-icons/svg/` | Original scalable page and role icon masters | Responsive navigation, page headers and role cards; prefer SVG in web applications |
+| `page-role-icons/png/` | Exact PNG exports of original role icons | Native tools, documents and systems that cannot display SVG |
+| `theme-icons/svg/` | Expanded semantic icon vocabulary with standard and `-reversed` variants | Kingdom-wide interfaces requiring archive, governance, financial, knowledge or institutional concepts |
+| `theme-icons/png/` | Theme icon exports at 32, 64 and 128 px | Fixed-size navigation, launchers, presentations and documentation |
+| `motifs/` | Open arcs, layers, dividers and constellation structures | Quiet structural decoration, empty states and section separators—not primary controls |
+| `seals/` | Main institutional seal and themed seal families | Constitutional documents, provenance panels, audit records and formal institutional contexts |
+| `tokens/` | Base colors and controlled theme variants in CSS and JSON | Shared design variables; applications should import a coherent theme rather than copying colors manually |
+| `apps/` | Complete, application-specific sub-packs | Each app folder contains its own branding, launcher icons, favicons, controls, diagrams, tokens and local README |
+| `manifest.json` | Machine-readable list of sizes, themes and application packs | Build tooling, asset browsers, validation and automated discovery |
+| `preview-role-icons.png` and `preview-theme-icons.png` | Contact sheets | Human review only; do not use these composite sheets as production UI assets |
+
+## Choosing the correct asset
+
+1. Check `apps/<application-name>/` first. App-specific assets take precedence inside that application.
+2. Use `page-role-icons/` for the original canonical roles and pages.
+3. Use `theme-icons/` when a broader semantic concept is needed.
+4. Use a seal only for formal institutional identity, never as an ordinary button icon.
+5. Use motifs only as low-weight structural punctuation.
+6. If the required concept does not exist, extend this pack; do not import a visually unrelated icon family.
+
+For web interfaces, reference SVG directly where practical. For native launchers, favicons and iPhone Home Screen icons, use the supplied exact PNG size. Never enlarge a smaller PNG when a larger source or SVG exists.
 
 ## Expanded Kingdom theme library (v1.1)
 
@@ -90,3 +107,19 @@ The `favicons/themes/` directory contains intentionally simplified browser-tab v
 The `seals/themes/` directory contains formal and reversed seals for archive, council, kingdom, court, registry, constitution, law, treasury, knowledge, and governance contexts. Seals indicate institutional identity, not automatic approval or legal authority.
 
 The `tokens/themes.css` and `tokens/themes.json` files provide six controlled atmosphere variants. They vary emphasis only within the approved visual language. They are not separate brands and must not be mixed arbitrarily within one application.
+
+## Economic Model Runner application pack (v1.2)
+
+`apps/economic-model-runner/` contains the complete identity and explanatory visual system for the economic model runner and scenario game. Its purpose is to make economic relationships, policy choices, shocks, feedback and uncertainty understandable without turning the product into a trading terminal or arcade game.
+
+The pack includes:
+
+- app branding and horizontal title lock-up;
+- launcher icons, including a dedicated 180 px iPhone Home Screen icon;
+- browser favicons and Safari mask;
+- model controls and economic concepts in SVG plus 24/32/64 px PNGs;
+- reusable infographics for circular flow, policy transmission, scenario comparison, sector balances and the scenario-learning loop;
+- app-specific CSS and JSON tokens;
+- a local README with integration examples and the boundary between useful game mechanics and manipulative gamification.
+
+Within this application, orange indicates the active intervention, scenario, shock or user choice. It does **not** mean that the result is beneficial. Outcomes, assumptions and uncertainty must always be explained with labels and evidence.

@@ -1,0 +1,21 @@
+{
+  "name": "Economic Model Runner",
+  "theme": "economy",
+  "colors": {
+    "surface": "#F8FAFC",
+    "surfaceMuted": "#E5E7EB",
+    "structure": "#163B66",
+    "structureSecondary": "#234B76",
+    "insight": "#E67E22",
+    "historical": "#D9E1EA"
+  },
+  "semantics": {
+    "navy": "model structure and baselines",
+    "orange": "active scenario, intervention, or user choice",
+    "grey": "historical/reference data"
+  },
+  "motion": {
+    "transitionMs": 240,
+    "rule": "slow, explanatory transitions; never casino-like"
+  }
+}
