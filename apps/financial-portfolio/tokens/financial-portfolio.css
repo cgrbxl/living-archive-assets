@@ -1,0 +1,10 @@
+:root,[data-archive-app="financial-portfolio"] {
+  --portfolio-surface: #F8FAFC;
+  --portfolio-surface-muted: #E5E7EB;
+  --portfolio-structure: #163B66;
+  --portfolio-structure-secondary: #234B76;
+  --portfolio-insight: #E67E22;
+  --portfolio-history: #D9E1EA;
+  --portfolio-line: #CDD6DF;
+  --portfolio-transition-ms: 240ms;
+}

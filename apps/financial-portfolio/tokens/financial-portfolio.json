@@ -1,0 +1,23 @@
+{
+  "name": "Financial Portfolio",
+  "theme": "economy",
+  "colors": {
+    "surface": "#F8FAFC",
+    "surfaceMuted": "#E5E7EB",
+    "structure": "#163B66",
+    "structureSecondary": "#234B76",
+    "insight": "#E67E22",
+    "history": "#D9E1EA",
+    "line": "#CDD6DF"
+  },
+  "semantics": {
+    "navy": "recorded portfolio structure, accounts, holdings, and baselines",
+    "orange": "the allocation, observation, or decision currently under review",
+    "grey": "historical, comparative, or inactive information",
+    "outcomes": "pair signed values and labels with direction; never rely on red, green, or orange alone"
+  },
+  "motion": {
+    "transitionMs": 240,
+    "rule": "calm explanatory transitions; never ticker-like, urgent, or celebratory"
+  }
+}

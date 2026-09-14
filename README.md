@@ -1,6 +1,6 @@
 # The Living Archive UI Asset Pack
 
-Version 1.2.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
+Version 1.3.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
 
 ## Non-negotiable identity rule
 
@@ -123,3 +123,19 @@ The pack includes:
 - a local README with integration examples and the boundary between useful game mechanics and manipulative gamification.
 
 Within this application, orange indicates the active intervention, scenario, shock or user choice. It does **not** mean that the result is beneficial. Outcomes, assumptions and uncertainty must always be explained with labels and evidence.
+
+## Financial Portfolio application pack (v1.3)
+
+`apps/financial-portfolio/` contains a complete visual system for portfolio overview, holdings, allocation, performance, income, risk and review workflows. It extends the Living Archive language as a calm archival instrument rather than copying the dense, urgent conventions of brokerage terminals.
+
+The pack includes:
+
+- app branding and a horizontal title lock-up;
+- launcher icons, favicons, Safari mask and web manifest;
+- eighteen semantic portfolio icons in standard and reversed SVG variants plus 24/32/64 px PNG exports;
+- explanatory graphics for allocation, performance history, and risk/return context;
+- quiet portfolio divider and asset-constellation motifs;
+- app-specific CSS and JSON design tokens;
+- contact sheets for visual review.
+
+Orange identifies the item or decision currently under review. It is not a gain, safety, buy, or recommendation signal. Signed values, direction, labels and accessible descriptions carry financial meaning.

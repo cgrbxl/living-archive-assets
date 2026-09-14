@@ -1,6 +1,6 @@
 {
   "name": "The Living Archive UI Asset Pack",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "sourceOfTruth": "SVG",
   "palette": {
     "navy": "#163B66",
@@ -157,6 +157,52 @@
         "scenario-comparison",
         "sector-balances",
         "scenario-laboratory-loop"
+      ],
+      "appIconSizes": [
+        128,
+        180,
+        192,
+        256,
+        512,
+        1024
+      ],
+      "faviconSizes": [
+        16,
+        32,
+        48,
+        64
+      ]
+    },
+    "financial-portfolio": {
+      "path": "apps/financial-portfolio",
+      "iconConcepts": [
+        "portfolio",
+        "overview",
+        "accounts",
+        "holdings",
+        "allocation",
+        "performance",
+        "benchmark",
+        "transactions",
+        "dividends",
+        "income",
+        "cash",
+        "risk",
+        "rebalance",
+        "watchlist",
+        "markets",
+        "goals",
+        "reports",
+        "tax-lots"
+      ],
+      "illustrations": [
+        "allocation-map",
+        "performance-history",
+        "risk-return-field"
+      ],
+      "motifs": [
+        "asset-constellation",
+        "portfolio-divider"
       ],
       "appIconSizes": [
         128,
