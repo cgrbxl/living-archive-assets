@@ -1,0 +1,10 @@
+:root,[data-archive-app="sailearn"] {
+  --sailearn-surface: #F8FAFC;
+  --sailearn-surface-muted: #E5E7EB;
+  --sailearn-structure: #163B66;
+  --sailearn-structure-secondary: #234B76;
+  --sailearn-waypoint: #E67E22;
+  --sailearn-wake: #D9E1EA;
+  --sailearn-chart-line: #CDD6DF;
+  --sailearn-transition-ms: 240ms;
+}

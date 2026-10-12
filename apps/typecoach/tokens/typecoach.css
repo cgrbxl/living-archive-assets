@@ -1,0 +1,10 @@
+:root,[data-archive-app="typecoach"] {
+  --typecoach-surface: #F8FAFC;
+  --typecoach-surface-muted: #E5E7EB;
+  --typecoach-structure: #163B66;
+  --typecoach-structure-secondary: #234B76;
+  --typecoach-focus: #E67E22;
+  --typecoach-history: #D9E1EA;
+  --typecoach-line: #CDD6DF;
+  --typecoach-transition-ms: 180ms;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "TypeCoach",
+  "theme": "knowledge",
+  "colors": {
+    "surface": "#F8FAFC",
+    "surfaceMuted": "#E5E7EB",
+    "structure": "#163B66",
+    "structureSecondary": "#234B76",
+    "focus": "#E67E22",
+    "history": "#D9E1EA",
+    "line": "#CDD6DF"
+  },
+  "semantics": {
+    "navy": "lesson structure, keyboard geometry, and recorded typing",
+    "orange": "current key, insertion point, or observation under review",
+    "grey": "upcoming, historical, or inactive material",
+    "errors": "use labels and correction marks; orange is not an error colour"
+  },
+  "motion": {
+    "transitionMs": 180,
+    "rule": "quiet key feedback and short fades; never shake, flash, or celebrate errors"
+  }
+}
