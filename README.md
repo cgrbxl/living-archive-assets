@@ -1,6 +1,6 @@
 # The Living Archive UI Asset Pack
 
-Version 1.3.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
+Version 1.4.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
 
 ## Non-negotiable identity rule
 
@@ -139,3 +139,19 @@ The pack includes:
 - contact sheets for visual review.
 
 Orange identifies the item or decision currently under review. It is not a gain, safety, buy, or recommendation signal. Signed values, direction, labels and accessible descriptions carry financial meaning.
+
+## TypeCoach application pack (v1.4)
+
+`apps/typecoach/` contains a complete visual system for typing lessons, deliberate practice, accuracy, speed, text drills, hand position, review, and results. Keyboard geometry and keystroke rhythm extend the Living Archive language without making practice feel like an arcade game.
+
+The pack includes application branding, launcher icons, favicons, eighteen semantic icons in standard and reversed variants, home-row and practice illustrations, keyboard motifs, app-specific tokens, and visual review sheets.
+
+Orange identifies the current key, insertion point, or observation under review. Errors require clear correction marks and text; they are never communicated through colour or alarming motion alone.
+
+## SaiLearn application pack (v1.4)
+
+`apps/sailearn/` contains a complete visual system for courses, lessons, study sheets, quizzes, exams, questions, answers, notes, review, and results. Marine navigation provides orientation through charts, sails, compass points, routes, waves, a lighthouse, and an anchor.
+
+The pack includes application branding, launcher icons, favicons, twenty semantic icons in standard and reversed variants, three learning-voyage illustrations, chart and wave motifs, app-specific tokens, and visual review sheets.
+
+Naval imagery means orientation and discovery—not combat, hierarchy, punishment, or “sink/fail” language. Orange marks the current waypoint or item under review.

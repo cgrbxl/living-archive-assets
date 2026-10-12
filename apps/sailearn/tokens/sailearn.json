@@ -1,0 +1,23 @@
+{
+  "name": "SaiLearn",
+  "theme": "knowledge",
+  "colors": {
+    "surface": "#F8FAFC",
+    "surfaceMuted": "#E5E7EB",
+    "structure": "#163B66",
+    "structureSecondary": "#234B76",
+    "waypoint": "#E67E22",
+    "wake": "#D9E1EA",
+    "chartLine": "#CDD6DF"
+  },
+  "semantics": {
+    "navy": "charted curriculum, assessment structure, and recorded work",
+    "orange": "current waypoint, question, or item under review",
+    "grey": "completed wakes, reference material, and inactive routes",
+    "naval": "orientation and discovery only; never combat, rank, or punishment"
+  },
+  "motion": {
+    "transitionMs": 240,
+    "rule": "gentle route and page transitions; never storm, alarm, or countdown effects"
+  }
+}
