@@ -1,0 +1,39 @@
+{
+  "name": "Wargame",
+  "theme": "archive-light",
+  "colors": {
+    "surface": "#F8FAFC",
+    "surfaceMuted": "#E5E7EB",
+    "structure": "#163B66",
+    "structureSecondary": "#234B76",
+    "activeOrder": "#E67E22",
+    "history": "#D9E1EA",
+    "line": "#CDD6DF"
+  },
+  "gameColors": {
+    "sideBlue": "#2D5C8C",
+    "sideRed": "#A53F37",
+    "mapBackground": "#E9ECE3",
+    "mapPanel": "#F7F8F3",
+    "mapInk": "#1E2A23",
+    "mapMuted": "#5D6A61",
+    "mapLine": "#C3C9B9",
+    "plain": "#DDE1C6",
+    "forest": "#8EAE7B",
+    "hill": "#CBB98B",
+    "village": "#D9CDB4",
+    "urban": "#B9B6AD",
+    "road": "#8A7A5C"
+  },
+  "semantics": {
+    "navy": "application structure and recorded command relationships",
+    "orange": "active order, selected route, or decision under review",
+    "blueRed": "game-side identifiers only; never moral or historical nationality",
+    "terrain": "board description only; never status",
+    "state": "pair colour with symbols, labels, pips, and patterns"
+  },
+  "motion": {
+    "transitionMs": 220,
+    "rule": "brief map and selection transitions; respect reduced motion and avoid celebratory destruction"
+  }
+}

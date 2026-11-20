@@ -1,0 +1,24 @@
+:root,[data-archive-app="wwiigame"] {
+  --wwiigame-surface: #F8FAFC;
+  --wwiigame-surface-muted: #E5E7EB;
+  --wwiigame-structure: #163B66;
+  --wwiigame-structure-secondary: #234B76;
+  --wwiigame-active-order: #E67E22;
+  --wwiigame-history: #D9E1EA;
+  --wwiigame-line: #CDD6DF;
+
+  --wwiigame-side-blue: #2D5C8C;
+  --wwiigame-side-red: #A53F37;
+  --wwiigame-map-background: #E9ECE3;
+  --wwiigame-map-panel: #F7F8F3;
+  --wwiigame-map-ink: #1E2A23;
+  --wwiigame-map-muted: #5D6A61;
+  --wwiigame-map-line: #C3C9B9;
+  --wwiigame-terrain-plain: #DDE1C6;
+  --wwiigame-terrain-forest: #8EAE7B;
+  --wwiigame-terrain-hill: #CBB98B;
+  --wwiigame-terrain-village: #D9CDB4;
+  --wwiigame-terrain-urban: #B9B6AD;
+  --wwiigame-terrain-road: #8A7A5C;
+  --wwiigame-transition-ms: 220ms;
+}
