@@ -1,6 +1,6 @@
 {
   "name": "The Living Archive UI Asset Pack",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "sourceOfTruth": "SVG",
   "palette": {
     "navy": "#163B66",
@@ -305,6 +305,69 @@
         256,
         512,
         1024
+      ],
+      "faviconSizes": [
+        16,
+        32,
+        48,
+        64
+      ]
+    },
+    "wwiigame": {
+      "path": "apps/wwiigame",
+      "iconConcepts": [
+        "battle-map",
+        "scenario",
+        "orders",
+        "command-net",
+        "units",
+        "group",
+        "objective",
+        "movement",
+        "attack",
+        "air-support",
+        "reinforcements",
+        "airborne",
+        "supply",
+        "depot",
+        "transport",
+        "entrench",
+        "refit",
+        "morale",
+        "terrain",
+        "road",
+        "undo",
+        "save-game",
+        "replay",
+        "execute-orders",
+        "take-control",
+        "next-unit"
+      ],
+      "illustrations": [
+        "orders-command-network",
+        "scenario-battlefield",
+        "turn-cycle",
+        "supply-and-roads"
+      ],
+      "motifs": [
+        "hex-command-field",
+        "operational-divider",
+        "counter-grid"
+      ],
+      "socialImages": [
+        "wwiigame-social-1200x630"
+      ],
+      "appIconSizes": [
+        128,
+        180,
+        192,
+        256,
+        512,
+        1024
+      ],
+      "maskableIconSizes": [
+        192,
+        512
       ],
       "faviconSizes": [
         16,

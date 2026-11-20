@@ -1,6 +1,6 @@
 # The Living Archive UI Asset Pack
 
-Version 1.4.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
+Version 1.5.0. Developer-ready visual assets for Kingdom interfaces. SVG files are the editable source of truth; PNG files are exact-size convenience exports for platforms that cannot consume SVG.
 
 ## Non-negotiable identity rule
 
@@ -155,3 +155,11 @@ Orange identifies the current key, insertion point, or observation under review.
 The pack includes application branding, launcher icons, favicons, twenty semantic icons in standard and reversed variants, three learning-voyage illustrations, chart and wave motifs, app-specific tokens, and visual review sheets.
 
 Naval imagery means orientation and discovery—not combat, hierarchy, punishment, or “sink/fail” language. Orange marks the current waypoint or item under review.
+
+## Wargame application pack (v1.5)
+
+`apps/wwiigame/` contains a complete visual system for the configurable, orders-driven hex wargame. The existing orange hexagon and navy advance-arrow mark is preserved and extended into a developer-ready pack for scenario setup, orders, command links, units, objectives, movement, air support, reinforcements, supply, terrain, morale, saving and replay.
+
+The pack includes application branding, launcher and maskable icons, favicons, twenty-six semantic icons in standard and reversed variants, four explanatory operational diagrams, three quiet hex/counter motifs, a 1200×630 social card, app-specific tokens, documentation and visual review sheets.
+
+The visual language remains faction-neutral. Use abstract cartography, counters and routes; do not add national flags, political symbols, military insignia, propaganda, portraits or weapons as application branding.
